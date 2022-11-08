@@ -10,19 +10,11 @@ public class FindIntersection {
 		Arrays.sort(firstArray);
 		Arrays.sort(secondArray);
 		
-		//Printing firstArray
-		System.out.println("First Array:: ");
-		for(int cnt=0;cnt<firstArray.length;cnt++)
-		{
-			System.out.print("\t"+firstArray[cnt]);
-		}
-		//Printing SecondArray
-		System.out.println("\nSecond Array:: ");
-		for(int cnt1=0;cnt1<secondArray.length;cnt1++)
-		{
-			System.out.print("\t"+secondArray[cnt1]);
-		}
+		//Printing input Array
 		
+		System.out.println("First Array:: \n"+Arrays.toString(firstArray));
+		System.out.println("Second Array:: \n"+Arrays.toString(secondArray));
+				
 		////Printing Intersection
 		System.out.println("\nIntersection of given array::");
 		
@@ -40,8 +32,7 @@ public class FindIntersection {
 				
 				
 				}
-			}
-		
+			}	
 				
 	}
 	

@@ -28,10 +28,8 @@ public class MissingElementInAnArray {
 		
 		Arrays.sort(arr);
 		System.out.println("Given Array:: ");
-		for(int cnt=0;cnt<arr.length;cnt++)
-		{
-			System.out.print(" "+arr[cnt]);
-		}		
+		System.out.println(Arrays.toString(arr));
+		
 		MissingElementInAnArray missingElement = new MissingElementInAnArray();
 		missingElement.findMissingNumber(arr);
 		
